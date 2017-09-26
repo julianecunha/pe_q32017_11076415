@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 main() {
-	int valor1;
-	int valor2;
+	int minuendo;
+	int subtraendo;
 	int subtracao;
-	printf("Entre com um número: ");
-	scanf("%d", &valor1);
-	printf("Entre com outro número: ");
-	scanf("%d", &valor2);
-	subtracao = valor1 - valor2;
-	printf("A subtracao é: %d\n", subtracao);
+	printf("Entre com o minuendo: ");
+	scanf("%d", &minuendo);
+	printf("Entre com o subtraendo: ");
+	scanf("%d", &subtraendo);
+	subtracao = minuendo - subtraendo;
+	printf("%d\n", subtracao);
 	return 0;
 }
