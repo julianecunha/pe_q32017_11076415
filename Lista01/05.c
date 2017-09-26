@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 main() {
-	int valor1;
-	int valor2;
+	int dividendo;
+	int divisor;
 	int divisao;
-	printf("Entre com um número: ");
-	scanf("%d", &valor1);
-	printf("Entre com outro número: ");
-	scanf("%d", &valor2);
-	divisao = valor1 / valor2;
-	printf("A divisao é: %d\n", divisao);
+	printf("Entre com o dividendo: ");
+	scanf("%d", &dividendo);
+	printf("Entre com o divisor: ");
+	scanf("%d", &divisor);
+	divisao = dividendo / divisor;
+	printf("%d\n", divisao);
 	return 0;
 }
