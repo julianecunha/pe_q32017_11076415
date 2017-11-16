@@ -33,4 +33,5 @@ int main() {
 	
 	printf("%.2f\n", dist);
 	
+	return 0;
 }
