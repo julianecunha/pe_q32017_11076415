@@ -26,8 +26,8 @@ int main() {
 	struct ponto p2;
 	float dist;
 	
-	scanf("%f %f %f", &(p1.x), &(p1.y), &(p1.z));
-	scanf("%f %f %f", &(p2.x), &(p2.y), &(p2.z));
+	scanf("%f, %f, %f", &(p1.x), &(p1.y), &(p1.z));
+	scanf("%f, %f, %f", &(p2.x), &(p2.y), &(p2.z));
 	
 	dist = dist_pontos(p1, p2);
 	
